@@ -255,12 +255,12 @@ static const uint32_t DHCP_OPTIONS_COOKIE = 0x63825363;
 
 /* Relay Agent Information option subtypes: */
 
-static const uint16_t RAI_OPTION_AGENT_CIRCUIT_ID = 1; // RFC3046
+static const uint16_t RAI_OPTION_AGENT_CIRCUIT_ID = 6; // RFC3046
 static const uint16_t RAI_OPTION_REMOTE_ID = 2; // RFC3046
 /* option 3 is reserved and will never be assigned */
 static const uint16_t RAI_OPTION_DOCSIS_DEVICE_CLASS = 4; // RFC3256
 static const uint16_t RAI_OPTION_LINK_SELECTION = 5; // RFC3527
-static const uint16_t RAI_OPTION_SUBSCRIBER_ID = 6; //RFC3993
+static const uint16_t RAI_OPTION_SUBSCRIBER_ID = 1; //RFC3993
 static const uint16_t RAI_OPTION_RADIUS = 7; //RFC4014
 static const uint16_t RAI_OPTION_AUTH = 8; //RFC4030
 static const uint16_t RAI_OPTION_VSI = 9; // RFC4243
